@@ -8,7 +8,14 @@
         "*": {
           "instanceType": "mem2_ssd2_gpu1_x8"
         }
-      }
+      },
+      "assetDepends": [
+        {
+          "id": "record-Gy8zBz8JKYf9g72qbz4Qk3F1",
+          "project": "project-Gx25k98J08pkk84J3V1JPPGY",
+          "folder": "/apps/assets"
+        }
+      ]
     }
   },
   "project": "project-Gx25k98J08pkk84J3V1JPPGY",

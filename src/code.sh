@@ -12,8 +12,6 @@ mkdir -p $HOME/out/out_files
 
 echo "=== Download input files ==="
 dx-download-all-inputs
-
-echo "=== Sym link your input files ==="
 ln -s $HOME/in/input_files/*/* /inputs/
 
 echo "=== List input files now in /inputs ==="
@@ -21,6 +19,9 @@ ls /inputs
 
 echo "=== Prepare script to run ==="
 echo "${cmd}" > /inputs/run_script.sh
+
+echo "=== GPU configuration ==="
+nvidia-smi
 
 echo "=== Set up docker image ==="
 # Here we get the docker image filename from $HOME/in/snapshot
