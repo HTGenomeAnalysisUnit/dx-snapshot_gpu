@@ -1,9 +1,10 @@
 {
-	"name": "nvidia_forward_compatability_asset",
-	"title": "nvidia_forward_compatability_asset",
-	"description": "nvidia_forward_compatability_asset",
-	"version": "0.0.1",
-	"distribution": "Ubuntu",
-	"release": "20.04",
-	"instanceType": "mem2_ssd2_gpu1_x4"
+  "name": "nvidia_forward_compatability_asset",
+  "title": "nvidia_forward_compatability_asset",
+  "description": "nvidia_forward_compatability_asset",
+  "version": "0.0.1",
+  "distribution": "Ubuntu",
+  "release": "20.04",
+  "instanceType": "mem2_ssd2_gpu1_x4",
+  "nvidiaDriver": "R535"
 }

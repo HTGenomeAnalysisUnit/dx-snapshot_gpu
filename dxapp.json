@@ -11,7 +11,7 @@
       },
       "assetDepends": [
         {
-          "id": "record-Gy8zBz8JKYf9g72qbz4Qk3F1",
+          "id": "record-Gzz94z0Jg5Fy1Kjf8fj31y48",
           "project": "project-Gx25k98J08pkk84J3V1JPPGY",
           "folder": "/apps/assets"
         }
@@ -56,7 +56,7 @@
   "runSpec": {
     "interpreter": "bash",
     "distribution": "Ubuntu",
-    "release": "20.04",
+    "release": "24.04",
     "version": "0",
     "file": "src/code.sh",
     "execDepends": [{ "name": "fuse" }],
