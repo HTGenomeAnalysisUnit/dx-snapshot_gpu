@@ -59,7 +59,6 @@
     "release": "24.04",
     "version": "0",
     "file": "src/code.sh",
-    "execDepends": [{ "name": "fuse" }],
     "timeoutPolicy": {
       "*": {
         "hours": 8
